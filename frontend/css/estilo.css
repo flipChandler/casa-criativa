@@ -3,7 +3,7 @@ body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     color:#25282b;
-    text-align: center;
+    
     margin:0;
 }
 
@@ -12,27 +12,60 @@ body{
     width:90%; /* menor 980px, seja 90% da pagina */
     max-width: 980px;
 
-    margin-right: auto;
-    margin-left: auto;
-    background: green;
+    margin: 40px auto; /* 40px em cima e embaixo e auto nas laterais*/    
+    
+    display: flex; /* as div's child  ficam em linha  */
+}
 
-    height:500px;
-    overflow:hidden; /* o que vazar do container, seja escondido */
+#intro {
+    width: 300px;
+    margin-right: 20px;
+}
+
+main{
+    margin:32px 0; /* 32px em cima e embaixo */
+}
+
+#buttons {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
 }
 
 button {
     color:#ff5e84;
     border:none;
     font-weight: bold;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    text-decoration: underline;
 }
 
 
-.fat {
+button.fat {
     color: #fff;
     background: #ff5e84;
+    width:150px;
+    height:40px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.3);
 }
 
-#footer a {
+button.fat:hover{
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+}
+
+
+footer a {
     color: #25282b;
     text-decoration: none;
 }

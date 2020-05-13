@@ -5,3 +5,4 @@ tudo é box em CSS
 - inline-block ocupa somente o seu tamanho na linha, permitindo outros inline-block ao seu lado 
 - site flaticon para icones legais
 - o limite do html é sempre da esquerda 
+- css tricks para truques no CSS
