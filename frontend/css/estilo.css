@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    background: #e5e5e5;
+    color:#25282b;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button {
+    color:#ff5e84;
+    border:none;
+    font-weight: bold;
+}
+
+
+.fat {
+    color: #fff;
+    background: #ff5e84;
+}
+
+#footer a {
+    color: #25282b;
+    text-decoration: none;
+}
+
+
+.hide {
+    display: none;
+}
