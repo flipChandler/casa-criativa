@@ -7,6 +7,20 @@ body{
     margin:0;
 }
 
+.hide {
+    display: none;
+}
+
+a {
+    color: #ff5e84;
+    font-weight: bold;
+    text-decoration: none;  
+}
+
+a:hover {
+       text-decoration: underline;
+}
+
 
 #container {
     width:90%; /* menor 980px, seja 90% da pagina */
@@ -65,14 +79,7 @@ footer {
 }
 
 
-footer a {
-    color: #25282b;
-    text-decoration: none;
-}
 
 
-.hide {
-    display: none;
-}
 
 
