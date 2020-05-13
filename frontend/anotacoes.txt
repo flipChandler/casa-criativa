@@ -1,0 +1,5 @@
+tudo é box em CSS 
+
+- box-model padrão tem: margin, border, padding e content, fora width e height
+- o display padrão é um block (um embaixo do outro ocupando toda a linha)
+- inline-block ocupa somente o seu tamanho na linha, permitindo outros inline-block ao seu lado 
