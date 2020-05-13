@@ -6,6 +6,13 @@ body{
     text-align: center;
 }
 
+
+#container {
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 button {
     color:#ff5e84;
     border:none;
@@ -27,3 +34,5 @@ button {
 .hide {
     display: none;
 }
+
+

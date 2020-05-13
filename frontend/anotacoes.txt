@@ -4,3 +4,4 @@ tudo é box em CSS
 - o display padrão é um block (um embaixo do outro ocupando toda a linha)
 - inline-block ocupa somente o seu tamanho na linha, permitindo outros inline-block ao seu lado 
 - site flaticon para icones legais
+- o limite do html é sempre da esquerda 
